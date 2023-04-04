@@ -50,7 +50,6 @@ local mod = main:Button("EGG REMOVE ANIM", function()
 game.Players.LocalPlayer.PlayerScripts.eggOpeningAnim:Destroy()
 end)
 local mod = main:Button("EGG", function()
-game.Players.LocalPlayer.PlayerScripts.eggOpeningAnim:Destroy()
 	getgenv().farmer = true
 while wait() do
     if getgenv().farmer == true then 
