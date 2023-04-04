@@ -47,6 +47,7 @@ Event:FireServer(A_1)
 end
 end)
 local mod = main:Button("EGG", function()
+game.Players.LocalPlayer.Character.PlayerScripts.eggOpeningAnim:Destroy()
 	getgenv().farmer = true
 while wait() do
     if getgenv().farmer == true then 
