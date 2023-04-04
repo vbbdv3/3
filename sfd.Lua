@@ -70,27 +70,31 @@ local mod = main:Button("Sarnek", function()
 local A_1 = "Sarnek"
 local Event = game:GetService("ReplicatedStorage").Remotes.portalTeleport
 Event:FireServer(A_1)
-
+game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade:Destroy()
 end)
 local mod = main:Button("Ninja Town", function()
 local A_1 = "Ninja Town"
 local Event = game:GetService("ReplicatedStorage").Remotes.portalTeleport
 Event:FireServer(A_1)
+game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade:Destroy()
 end)
 local mod = main:Button("Demon Hill", function()
 local A_1 = "Demon Hill"
 local Event = game:GetService("ReplicatedStorage").Remotes.portalTeleport
 Event:FireServer(A_1)
+game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade:Destroy()
 end)
 local mod = main:Button("Pirate Sea", function()
 local A_1 = "Pirate Sea"
 local Event = game:GetService("ReplicatedStorage").Remotes.portalTeleport
 Event:FireServer(A_1)
+game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade:Destroy()
 end)
 local mod = main:Button("Hunter World", function()
 local A_1 = "Hunter World"
 local Event = game:GetService("ReplicatedStorage").Remotes.portalTeleport
 Event:FireServer(A_1)
+game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade:Destroy()
 end)
 local mod = main:Button("Next Server", function()
     local Http = game:GetService("HttpService")
@@ -128,3 +132,4 @@ ab.TextColor3=Color3.new(1,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end)
+game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade.LoadingBar:Destroy()
