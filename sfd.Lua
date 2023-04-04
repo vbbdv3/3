@@ -46,6 +46,9 @@ Event:FireServer(A_1)
     end
 end
 end)
+local mod = main:Button("EGG REMOVE ANIM", function()
+game.Players.LocalPlayer.PlayerScripts.eggOpeningAnim:Destroy()
+end)
 local mod = main:Button("EGG", function()
 game.Players.LocalPlayer.PlayerScripts.eggOpeningAnim:Destroy()
 	getgenv().farmer = true
