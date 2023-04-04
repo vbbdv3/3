@@ -70,31 +70,36 @@ local mod = main:Button("Sarnek", function()
 local A_1 = "Sarnek"
 local Event = game:GetService("ReplicatedStorage").Remotes.portalTeleport
 Event:FireServer(A_1)
-game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade:Destroy()
+wait()
+game.Players.LocalPlayer.PlayerGui.MainGUI.Fade:Destroy()
 end)
 local mod = main:Button("Ninja Town", function()
 local A_1 = "Ninja Town"
 local Event = game:GetService("ReplicatedStorage").Remotes.portalTeleport
 Event:FireServer(A_1)
-game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade:Destroy()
+wait()
+game.Players.LocalPlayer.PlayerGui.MainGUI.Fade:Destroy()
 end)
 local mod = main:Button("Demon Hill", function()
 local A_1 = "Demon Hill"
 local Event = game:GetService("ReplicatedStorage").Remotes.portalTeleport
 Event:FireServer(A_1)
-game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade:Destroy()
+wait()
+game.Players.LocalPlayer.PlayerGui.MainGUI.Fade:Destroy()
 end)
 local mod = main:Button("Pirate Sea", function()
 local A_1 = "Pirate Sea"
 local Event = game:GetService("ReplicatedStorage").Remotes.portalTeleport
 Event:FireServer(A_1)
-game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade:Destroy()
+wait()
+game.Players.LocalPlayer.PlayerGui.MainGUI.Fade:Destroy()
 end)
 local mod = main:Button("Hunter World", function()
 local A_1 = "Hunter World"
 local Event = game:GetService("ReplicatedStorage").Remotes.portalTeleport
 Event:FireServer(A_1)
-game:GetService("Players").AcceleratorMOB.PlayerGui.MainGUI.Fade:Destroy()
+wait()
+game.Players.LocalPlayer.PlayerGui.MainGUI.Fade:Destroy()
 end)
 local mod = main:Button("Next Server", function()
     local Http = game:GetService("HttpService")
