@@ -29,7 +29,7 @@ function smoothTeleport(part, endPoint, speed)
 end
 
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
-local main = libary:CreateWindow("Anime Lost")
+local main = libary:CreateWindow("Anime Lost V0.4")
 local mod = main:Button("Attack", function()
 	getgenv().farmer = true
 while wait() do
