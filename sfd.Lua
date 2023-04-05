@@ -56,7 +56,7 @@ local mod = main:Button("Magnet Gamepasses", function()
 game.Players.LocalPlayer.PlayerInfo.Gamepasses.OwnsMagnet.Value = true
 end)
 local mod = main:Button("INF GEM", function()
-game.Players.LocalPlayer.PlayerInfo.Currencies.Gems.Value = 999999999999999999
+game.Players.LocalPlayer.PlayerInfo.Currencies.Gems.Value = 100000000000000000000
 end)
 local mod = main:Button("EGG AUTO OPEN", function()
 	getgenv().farmer = true
