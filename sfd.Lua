@@ -58,7 +58,7 @@ end)
 local mod = main:Button("INF GEM", function()
 game.Players.LocalPlayer.PlayerInfo.Currencies.Gems.Value = 999999999999999999
 end)
-local mod = main:Button("EGG", function()
+local mod = main:Button("EGG AUTO OPEN", function()
 	getgenv().farmer = true
 while wait() do
     if getgenv().farmer == true then 
