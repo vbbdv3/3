@@ -29,7 +29,7 @@ function smoothTeleport(part, endPoint, speed)
 end
 
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
-local main = libary:CreateWindow("Anime Lost V0.3")
+local main = libary:CreateWindow("Anime Lost")
 local mod = main:Button("Attack", function()
 	getgenv().farmer = true
 while wait() do
@@ -53,7 +53,10 @@ local mod = main:Button("EGG REMOVE ANIM", function()
 game.Players.LocalPlayer.PlayerScripts.eggOpeningAnim:Destroy()
 end)
 local mod = main:Button("Magnet Gamepasses", function()
-game:GetService("Players").AcceleratorMOB.PlayerInfo.Gamepasses.OwnsMagnet.Value = true
+game.Players.LocalPlayer.PlayerInfo.Gamepasses.OwnsMagnet.Value = true
+end)
+local mod = main:Button("INF GEM", function()
+game.Players.LocalPlayer.PlayerInfo.Currencies.Gems.Value = 999999999999999999
 end)
 local mod = main:Button("EGG", function()
 	getgenv().farmer = true
