@@ -30,7 +30,7 @@ end
 
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
 local main = libary:CreateWindow("Anime Lost V0.4")
-local mod = main:Button("Attack", function()
+local mod = main:Button("Auto Attack", function()
 	getgenv().farmer = true
 while wait() do
     if getgenv().farmer == true then
@@ -39,7 +39,7 @@ Event:FireServer()
     end
 end
 end)
-local mod = main:Button("Skill", function()
+local mod = main:Button("Auto Skill", function()
 	getgenv().farmer = true
 while wait() do
     if getgenv().farmer == true then
@@ -94,7 +94,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4716.507
 end
 end)
 
-local mod = main:Button("DUNGEON", function()
+local mod = main:Button("DUNGEON TP", function()
 smoothTeleport(game.Players.LocalPlayer.Character.HumanoidRootPart, Vector3.new(-1174.4788818359375, 32.829742431640625, 243.27598571777344), 500)
 end)
 local mod = main:Button("Sarnek", function()
