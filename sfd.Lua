@@ -29,7 +29,7 @@ function smoothTeleport(part, endPoint, speed)
 end
 
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
-local main = libary:CreateWindow("Anime Lost")
+local main = libary:CreateWindow("Anime Lost V0.3")
 local mod = main:Button("Attack", function()
 	getgenv().farmer = true
 while wait() do
@@ -52,6 +52,9 @@ end)
 local mod = main:Button("EGG REMOVE ANIM", function()
 game.Players.LocalPlayer.PlayerScripts.eggOpeningAnim:Destroy()
 end)
+local mod = main:Button("Magnet Gamepasses", function()
+game:GetService("Players").AcceleratorMOB.PlayerInfo.Gamepasses.OwnsMagnet.Value = true
+end)
 local mod = main:Button("EGG", function()
 	getgenv().farmer = true
 while wait() do
@@ -63,6 +66,31 @@ Event:FireServer(A_1, A_2)
     end
 end
 end)
+local mod = main:Button("Demon Hill EGG Auto TP", function()
+    	getgenv().farmer = true
+while wait(1) do
+    if getgenv().farmer == true then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2608.256103515625, 15.490595817565918, 5049.0361328125)
+    end
+end
+end)
+local mod = main:Button("Pirate Sea EGG Auto TP", function()
+    	getgenv().farmer = true
+while wait(1) do
+    if getgenv().farmer == true then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2282.095947265625, 29.06070327758789, -1202.070556640625)
+    end
+end
+end)
+local mod = main:Button("Hunter World EGG Auto TP", function()
+    	getgenv().farmer = true
+while wait(1) do
+    if getgenv().farmer == true then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4716.5078125, 62.81047439575195, 1338.785400390625)
+    end
+end
+end)
+
 local mod = main:Button("DUNGEON", function()
 smoothTeleport(game.Players.LocalPlayer.Character.HumanoidRootPart, Vector3.new(-1174.4788818359375, 32.829742431640625, 243.27598571777344), 500)
 end)
